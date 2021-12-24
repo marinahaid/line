@@ -25,8 +25,7 @@ a {
 }
 
 .menu__list { 
-  position: relative;
-border-right: 2px solid #fff; 
+
 }
 
 
@@ -35,21 +34,30 @@ border-right: 2px solid #fff;
     color: #fff;
     text-transform: uppercase;
     width: 30%;
-  padding-right: 50px; 
+    transition: all 1s ease;
+
 }
 
 
 .menu__list li {
+  position: relative;
+border-right: 2px solid #fff;  
+ padding: 10px 50px 10px 0; transition: all 1s ease;
 
-padding-bottom: 20px;
 }
 
 .menu__list li:active,
 .menu__list li:hover,
 .menu__list li:focus {
    border-right: 2px solid rgb(231, 25, 25); 
-  position: absolute;
-  padding-bottom: 20px;
+  
+
+}
+
+.menu__list a:focus,
+.menu__list a:hover,
+.menu__list a:active {
+    color: rgb(231, 25, 25); 
 }
 
 
