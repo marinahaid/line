@@ -1,0 +1,64 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(50, 70, 90);
+    padding: 50px 0;
+}
+
+.list-reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu__list { 
+ 
+border-right: 2px solid #fff; 
+}
+
+
+.menu__list a {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 30%;
+    padding-right: 50px; 
+   
+}
+
+
+.menu__list li {
+  position: relative;
+
+}
+
+.menu__list li:active,
+.menu__list li:hover,
+.menu__list li:focus {
+   
+    border-right: 2px solid rgb(231, 25, 25); 
+  position: absolute;
+}
+
+
+.menu__text {
+    width: 70%;
+}
+
+.menu__text p {
+    font-size: 16px;
+    color: #fff;
+}
